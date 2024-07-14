@@ -5,6 +5,22 @@
 
 using namespace std;
 
+//Peter Nguyen
+//2
+//description:
+//Reads a input file takes each word and sort in a binary tree, nodes pointers for a left 
+//and right child,datatypes for a word, integar for there place in the file, and height
+//value. The program will output each word in alphatical order in inorder operation and
+//each line where the word is printed besides them as a integer. The tree is set as AVL
+//to balancing for O(n) time complexity, this rotates the tree double left/right, single left/right
+//when the height difference from left and right of a tree is more than 1. Used reference building the
+//the binary tree for node structure, sorting for each stored string, setting pointers in each,
+//function to recursion function and printing inorder. Split the files into lines then into 
+//words from stream functions, looped with for insert function. The AVL tree functions learned
+//in class and implented into tree functions to rotate according to height of each nodes in the
+//the tree. The programs reads a input txt file breaks apart each lines into words to sort into a tree.
+//The inorder function prints inorder and the line number stored in the linked list connected
+//next, each word is print on line by line. 
 
 class tree{
 private:
